@@ -1,4 +1,4 @@
-class entity {
+class Entity {
   constructor(
     nameParam,
     hpParam,
@@ -15,3 +15,5 @@ class entity {
     this.xpMax = xpMaxParam;
   }
 }
+
+export default Entity;
